@@ -1,0 +1,81 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1561306317-f0217c562c45?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+  background-size: cover;
+  fiont-size: 8px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  padding-right: 266px;
+}
+h2 {
+  color: black;
+  text-align: center;
+  padding-right: 266px;
+}
+
+h5, span  {
+  text-align: left;
+  color: white;
+  background-color: blue;
+}
+p1, #div1{
+  background-color: rgb(255,255,255,.5);
+  text-align: left;
+  width: 500px;
+
+}
+
+p {
+  text-decoration-color: black;
+}
+.gcse-search {
+  width: 500px;
+}
+
+
+a {
+  color: white;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 2px;
+}
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 0; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+.sidebar {
+  float: left;
+  border: 4px
+  color: white;
+  width: 266px;
+  height: 1000p;
+  background-color: rgba(255,255,255,.5);
+
+}
+
+.sidebar2 {
+  float: left;
+  border: 4px solid Black;
+  color: white;
+  width: 266px;
+  height: 1000p;
+  background-color:black;
+
+}
+.footer{
+  clear: both;
+  height: 200px;
+  background-color: #D6E9FE;    /* Light blue */
+}
