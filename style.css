@@ -20,8 +20,8 @@ h5  {
   color: white;
   background-color: blue;
 }
-p1, #div1{
-  background-color: rgb(255,255,255,.5);
+#div1{
+  background-color: rgb(255,255,255,.2);
   text-align: left;
   width: 500px;
 
@@ -56,10 +56,9 @@ li {
   /* float: left; */
   border: 4px
   color: white;
-  width: 800px;
-  height: 1000p;
-  /*background-color: rgba(255,255,255,.5);*/
-
+  width: 300px;
+  /* height: 1000px; */
+  background-color: rgba(255,255,255,.2);
 }
 /* iframe {
   width: 500px
