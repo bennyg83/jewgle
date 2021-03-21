@@ -1,4 +1,4 @@
-  body {
+body {
   background-image: url("https://images.unsplash.com/photo-1570595635598-a5cc5e5524fe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1490&q=80");
   background-size: cover;
   font-size: 20px;
@@ -19,9 +19,10 @@ h5  {
   background-color: blue;
 }
 #div1{
-  background-color: rgb(255,255,255,.2);
+  padding-left: 100px;
   text-align: left;
   width: 500px;
+  color: white;
 
 }
 
@@ -30,25 +31,11 @@ p {
 }
 
 
-/* a {
-  color: white;
-} */
 li {
   list-style: none;
   display: inline-grid;
   padding: 2px;
 }
-/* .sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-} */
 
 .sidebar {
   float: left;
@@ -56,10 +43,8 @@ li {
   width: 45%;
 
 }
-/* iframe {
-  width: 500px
-  height: 600px;
-} */
+
+
 .page {
   display: inline;
   justify-content: center;
@@ -68,8 +53,6 @@ li {
   border: 1px solid red;  /* Add this
 
 
-.sidebar2 {
-  /* display: block; */
    flex-wrap:   wrap;
    justify-content:    center;
   /* float: left;
@@ -82,7 +65,6 @@ li {
   padding-left: 255px;
   padding-right: 255px;
 }
- #wrap { width: 600px; height: 390px; padding: 0; overflow: hidden; }
 #frame { width: 50%; height: 800px; border: 1px solid black; }
 #frame {
     align: left;
