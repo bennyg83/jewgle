@@ -16,9 +16,9 @@ h2 {
 }
 
 h5  {
-  text-align: center;
+  text-align: left;
   color: white;
-  background-color: rgb(255,255,255,.2);
+  background-color: blue;
 }
 #div1{
   background-color: rgb(255,255,255,.2);
@@ -53,12 +53,10 @@ li {
 } */
 
 .sidebar {
-  /* float: left; */
-  border: 4px
-  color: white;
-  width: 300px;
-  /* height: 1000px; */
-  background-color: rgba(255,255,255,.2);
+  float: left;
+  display: inline-flex;
+  width: 45%;
+
 }
 /* iframe {
   width: 500px
@@ -86,21 +84,23 @@ li {
   padding-left: 255px;
   padding-right: 255px;
 }
-#wrap { width: 600px; height: 390px; padding: 0; overflow: hidden; }
-#frame { width: 1000px; height: 520px; border: 1px solid black; }
+ #wrap { width: 600px; height: 390px; padding: 0; overflow: hidden; }
+#frame { width: 50%; height: 800px; border: 1px solid black; }
 #frame {
     align: left;
     margin-left: 0;
-    -ms-zoom: 0.7;
-    -moz-transform: scale(0.7);
+    -ms-zoom: 0.75;
+    -moz-transform: scale(0.75);
     -moz-transform-origin: 0 0;
-    -o-transform: scale(0.7);
+    -o-transform: scale(0.75);
     -o-transform-origin: 0 0;
-    -webkit-transform: scale(0.7);
+    -webkit-transform: scale(0.75);
     -webkit-transform-origin: 0 0;
 }
 
 footer{
   clear: both;
+  /* height: 200px; */
+  background-color: #D6E9FE;    /* Light blue */
   width: 500px;
 }
