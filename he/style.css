@@ -1,5 +1,5 @@
 body {
-  background-image: url("./man_at_kotel.jpeg");
+  background-image: url("./man_at_kotel_he.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -51,7 +51,7 @@ li {
 }
 
 .sidebar {
-  float: left;
+  float: right;
   display: inline-flex;
   width: 45%;
 
